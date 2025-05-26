@@ -2,8 +2,6 @@ import serial
 import time
 import requests
 
-# IP address of your Raspberry Pi
-pi_ip = "192.168.4.73"  # <-- change to your actual Pi IP
 motion_url = "http://127.0.0.1:7999/1/config/set"
 
 motion_timeout = 5  # seconds to keep recording after motion
